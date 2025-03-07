@@ -1,0 +1,79 @@
+@import url(fontiran.css);
+* {
+    font-family: IRANSansX  !important;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	direction: ltr;
+	text-decoration: none;
+	list-style: none;
+}
+}
+body {
+direction: ltr;
+max-width: 360px;
+width: 360px;
+margin: 0 auto;
+}
+table{
+    width: 350px;
+    margin: 20px auto;
+}
+table tr td{
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+    border-radius: 3px;
+    background: #fff;
+    color: #656565;
+    width: 20%;
+    Border:solid 1px #212121;
+}
+table tr th{
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+    border-radius: 3px;
+    background: #ddd;
+    color: #656565;
+    width: 20%;
+    Border:solid 1px #212121;
+}
+#W,#L,#C{
+    width:100px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 0;
+    color: #fff;
+    margin: 10px 0;
+}
+#W{
+    background: green;
+    margin-left: 20px;;
+}
+#L{
+    background: red;
+    
+}
+.clear{
+    clear: both;
+}
+#C{
+    background: #505050;
+    margin-right: 20px;
+}
+input{
+    width: 100%;
+    border:solid 1px #ddd;
+    border-radius: 5px;
+    padding: 3px 0;
+    text-align: center;
+    color: #858585;
+}
+.input{
+    width: 150px;
+    margin: 10px auto;
+}

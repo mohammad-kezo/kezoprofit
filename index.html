@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="input">
+        Amount :
+        <input type="text" name="baseDealAmount" id="baseDealAmount" value="1" />
+    </div>
+    <br />
+    <div class="input">
+        Profit % :
+        <input type="text" name="profitPercent" id="profitPercent" value="100" />
+    </div>
+    <table>
+        <tr>
+            <th>step</th>
+            <th>profit</th>
+            <th>amount</th>
+            <th>W</th>
+            <th>L</th>
+        </tr>
+        <tr>
+            <td class="stepNumber">1</td>
+            <td class="totalProfit">0</td>
+            <td class="nextDealAmount">0.5</td>
+            <td class="WC">0</td>
+            <td class="LC">0</td>
+
+        </tr>
+    </table>
+    <button id="W" type="submit" onclick="nextStep(this.id)">win</button>
+    <button id="L" type="submit" onclick="nextStep(this.id)">loose</button>
+    <button id="C" type="submit" onclick="Clear()">clear</button>
+    <script src="CustomScripts.js"></script>
+</body>
+</html>
